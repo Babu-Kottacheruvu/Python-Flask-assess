@@ -1,0 +1,24 @@
+create database users
+use users ;
+
+-- Creating Table--  
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    role VARCHAR(255) NOT NULL
+);
+-- Insert Data Into Table-- 
+
+INSERT INTO users (name, email, role) VALUES
+('John', 'john@example.com', 'HR'),
+('Smith', 'smith@example.com', 'Developer'),
+('Johnson', 'johnson@example.com', 'Manager');
+
+-- Retrieve All Users--  
+select * from users
+
+-- selecting user by id
+ 
+select * FROM users WHERE id = 3;
