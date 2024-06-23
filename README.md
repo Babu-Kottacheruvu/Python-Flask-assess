@@ -48,7 +48,7 @@ The Task Manager is a web application built using Flask that allows users to man
    - Example: `http://localhost:5000/hello`
 2. `/users`(GET):Retrives all the details preseint is database called "usersdb"
     -Example: `http://localhost:5000/users`
-2. `/tasks/new` (POST): Add a new task.
+2. `/new_user` (POST): Add a new task.
    - Example: `POST http://localhost:5000/new_user`
 3. `/users/<id>` (GET): Retrieve details of a specific task by ID.
    - Example: `http://localhost:5000/users/<id>`
