@@ -1,4 +1,4 @@
-### Project Name: Task Manager
+### Project Name: Steptech_Assignment
 
 ### Description:
 The Task Manager is a web application built using Flask that allows users to manage their tasks. Users can view a list of tasks, add new tasks, mark tasks as complete, and delete tasks.
